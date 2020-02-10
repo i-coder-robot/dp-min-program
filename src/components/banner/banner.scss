@@ -1,0 +1,9 @@
+.banner{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  .bannerImg{
+    width:90%;
+    height: 168px;
+  }
+}

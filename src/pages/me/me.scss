@@ -1,0 +1,174 @@
+.me{
+
+  .firstLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .firstLineLeft{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      .meIconBg{
+        margin-left: 38px;
+        width: 178px;
+        height: 178px;
+        border-radius: 100.0px;
+        background-color: #f4f4f4;
+        .meIcon{
+          position: fixed;
+          left: 56px;
+          top: 20px;
+          width: 138px;
+          height: 138px;
+          border-radius: 250.0px;
+        }
+      }
+      .profile{
+        margin-top: 20px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .userName{
+          font-size: 48px;
+        }
+        .level{
+          width: 88px;
+          height: 38px;
+          font-size: 28px;
+          color: white;
+          margin-top: 12px;
+          font-weight: bold;
+          text-align: center;
+          margin-left: 12px;
+          background-color: #f9bb2c;
+          border-radius: 18px;
+        }
+      }
+      .profileSex{
+        margin-left: 30px;
+      }
+    }
+    .homepage{
+      font-size: 30px;
+      color: #a8a8a8;
+      //margin-right: 20px;
+    }
+    .arrow{
+      width: 20px;
+      height: 28px;
+      margin-left: 16px;
+      margin-right: 20px;
+    }
+  }
+  .meHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .secondLine{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 90%;
+      height: 148px;
+      border-radius: 15px;
+      box-shadow: 5px 10px 15px 2px rgba(0,0,0,0.1); //1.水平阴影  2.垂直阴影 3.模糊距离，改虚实 4.阴影尺寸
+      border: #f1f2f3 solid 1px;
+      .secondLineLeft{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .card{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          .profile{
+            margin-left: 20px;
+            margin-top: 16px;
+            width: 52px;
+            height: 48px;
+          }
+          .words{
+            margin-top: 12px;
+            margin-left: 14px;
+          }
+        }
+
+        .mingpian{
+          font-size: 42px;
+          font-weight: bold;
+        }
+        .morePeople{
+          margin-left: 16px;
+          color: #bbbbbb;
+        }
+        .fensi{
+          margin-left: 42px;
+        }
+      }
+
+      .codeArea{
+        margin-top: 32px;
+        .code{
+          width: 42px;
+          height: 42px;
+          margin-right: 20px;
+        }
+        .arrow{
+          width: 21px;
+          height: 42px;
+        }
+      }
+    }
+  }
+  .titleHead{
+    margin-left: 40px;
+    margin-top: 56px;
+    margin-bottom: 36px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .myOrders{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .meItemRow{
+    text-align: center;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 32px;
+    padding-bottom: 28px;
+    border-bottom: #e1e1e1 solid 1px;
+    margin-bottom: 30px;
+    .rightArrow{
+      width: 18px;
+      height: 28px;
+    }
+    .settings{
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+    }
+    .modifyMobile{
+      margin-left: 14px;
+      font-size: 24px;
+      color: #cacaca;
+    }
+  }
+  .meOthers{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+

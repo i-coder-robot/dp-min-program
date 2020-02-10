@@ -1,0 +1,62 @@
+.discountItem{
+  display: flex;
+  flex-direction: column;
+  .discountItemSrc{
+    width: 352px;
+    height: 352px;
+  }
+  .discountItemBelow{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    .discountItemTitle{
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-line-clamp: 2;
+      /* autoprefixer: ignore next */
+      -webkit-box-orient: vertical;
+      margin-top: 12px;
+      font-weight: bold;
+    }
+    .discountItemMid{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      .discountItemIcon{
+        width: 48px;
+        height: 48px;
+      }
+      .discountItemHotel{
+        margin-left: 12px;
+        font-size: 24px;
+      }
+    }
+    .discountItemBottom{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 28px;
+      .discountItemGoodsPrice{
+        font-size: 28px;
+        color: orangered;
+      }
+      .discountItemPrice{
+        margin-left: 10px;
+        font-size: 24px;
+        color: grey;
+        text-decoration:line-through;
+      }
+      .discount{
+        margin-left: 10px;
+        font-size: 22px;
+        padding: 2px;
+        border: 1px solid orangered;
+        color: #fc4c24;
+      }
+    }
+  }
+
+
+}

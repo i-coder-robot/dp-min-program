@@ -1,0 +1,13 @@
+.searchRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+  .pos{
+    margin-top: 20px;
+    width: 16%;
+  }
+  .searchBar{
+    width: 84%;
+  }
+}

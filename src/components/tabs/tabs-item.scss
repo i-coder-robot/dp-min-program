@@ -1,0 +1,91 @@
+.tabsItem{
+  margin-top: 38px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .tabsItemLeft{
+    margin-left: 22px;
+    .tabsItemImg{
+      width: 208px;
+      height: 208px;
+    }
+  }
+
+  .tabsItemRight{
+    margin-left: 24px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    .tabsItemTitle{
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .tabsItemStars{
+      margin: 8px 0px;
+      .tabsItemStar{
+        width: 28px;
+        height: 28px;
+        margin-right: 4px;
+        .tabsItemPrice{
+          margin-left: 24px;
+          font-size: 18px;
+        }
+      }
+    }
+
+    .tabsItemArea{
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      font-size: 22px;
+      .tabsItemAreaText{
+
+      }
+      .tabsItemAreaRegion{
+        margin-left: 16px;
+      }
+    }
+    .tabsItemDesc{
+      margin-top: 8px;
+      font-size: 24px;
+      color: #fb7e59;
+      background-color: #fdf0eb;
+      width: 60%;
+      text-align: center;
+    }
+    .tabsItemTeam{
+      width: 80%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      font-size: 26px;
+      .tabsItemTeamIcon{
+        width: 36px;
+        height: 32px;
+        line-height: 32px;
+        margin-right: 16px;
+      }
+    }
+    .tabsItemQuan{
+      width: 80%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      font-size: 26px;
+      .tabsItemQuanIcon{
+        width: 36px;
+        height: 32px;
+        line-height: 32px;
+        margin-right: 16px;
+      }
+    }
+
+    .tabsItemLine{
+      width: 100%;
+      margin: 20px;
+      border-top: #edeeef solid 1px;
+    }
+  }
+}

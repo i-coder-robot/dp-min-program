@@ -1,0 +1,78 @@
+.rushItem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 16px 0;
+  .rushHeadItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    .rushHead{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      font-size: 36px;
+    }
+    .rushHead2{
+      color:#fc673d
+    }
+
+    .rushTimeItem{
+      margin-left: 18px;
+      color: white;
+      .rushTimeSymbol{
+        color:#fc4c24;
+        margin: 0px 6px;
+      }
+      .rushTime{
+
+        padding: 4px;
+        background-color: #fd7430;
+        color: white;
+        font-weight: bold;
+      }
+    }
+
+  }
+
+
+
+  .rushImg{
+    margin-top: 10px;
+    width: 320px;
+    height: 280px;
+  }
+  .rushTitle{
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .rushDesc{
+    .rushIcon{
+      width: 28px;
+      height: 28px;
+    }
+    .rushHotelName{
+      font-size: 28px;
+      color: darkgrey;
+      margin-left: 8px;
+    }
+    .distance{
+      font-size: 28px;
+      color: darkgrey;
+      margin-left: 64px;
+    }
+  }
+  .rushBottom{
+    .rushPrice{
+      color: orangered;
+      font-size: 38px;
+    }
+    .rushOriginPrice{
+      font-size: 22px;
+      margin-left: 8px;
+      color: grey;
+      text-decoration: line-through;
+    }
+  }
+}

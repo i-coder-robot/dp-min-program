@@ -1,0 +1,29 @@
+.scrollItem{
+  width:100%;
+  box-shadow:3px 0 8px -4px #000;
+  display: inline-block;
+  width: 160px;
+  height: 180px;
+  border: 1px solid #f1f1f1;
+  overflow: hidden;
+  position: relative;
+  margin-left: 16px;
+  z-index: 99;
+  .scrollItemTitle{
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 24px;
+    padding-left: 26px;
+  }
+  .scrollItemDesc{
+    padding-left: 28px;
+    font-size: 18px;
+  }
+  .scrollItemImg{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 80px;
+    top: 100px;
+  }
+}

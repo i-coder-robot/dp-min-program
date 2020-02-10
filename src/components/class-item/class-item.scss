@@ -1,0 +1,18 @@
+.classItem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fafafa;
+  .classItemSrc{
+    width: 118px;
+    height: 118px;
+  }
+  .classItemTitle{
+    padding-left: 12px;
+    font-size: 22px;
+  }
+  .classItemDesc{
+    font-size: 18px;
+    color: darkgrey;
+  }
+}
