@@ -29,9 +29,12 @@ const config = {
       ]
     ]
   },
-  plugins: [],
+  plugins: [
+    '@tarojs/plugin-sass',
+  ],
   defineConstants: {
   },
+  framework: 'react',
   mini: {
     postcss: {
       pxtransform: {

@@ -31,6 +31,7 @@
   "dependencies": {
     "@tarojs/components": "2.0.0",
     "@tarojs/components-qa": "2.0.0",
+    "@tarojs/plugin-sass": "^2.2.10",
     "@tarojs/redux": "2.0.0",
     "@tarojs/redux-h5": "2.0.0",
     "@tarojs/router": "2.0.0",
@@ -48,7 +49,7 @@
     "redux": "^4.0.0",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
-    "taro-ui": "^2.2.4"
+    "taro-ui": "^2.3.4"
   },
   "devDependencies": {
     "@tarojs/mini-runner": "2.0.0",
