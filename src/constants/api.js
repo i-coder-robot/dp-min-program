@@ -1,4 +1,4 @@
-export const host = 'http://localhost:8080/'
+export const host = 'http://localhost:9090/'
 
 //home
 export const API_HOME_NAV = `${host}/nav`

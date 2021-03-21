@@ -6,7 +6,7 @@ import useApiRequest from "../../useApiRequest";
 
 function DiscountLeft () {
 
-  const [{status,response},makeRequestApi] = useApiRequest('http://localhost:8080/discountLeft')
+  const [{status,response},makeRequestApi] = useApiRequest('http://localhost:9090/discountLeft')
 
   useEffect(()=>{
     makeRequestApi()

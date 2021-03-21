@@ -5,7 +5,7 @@ import useApiRequest from "../../useApiRequest";
 import {FETCHING,SUCCESS,ERROR} from '../../actions/actionTypes'
 
 function DiscountRight () {
-  const [{status,response},makeRequestApi] = useApiRequest('http://localhost:8080/discountRight')
+  const [{status,response},makeRequestApi] = useApiRequest('http://localhost:9090/discountRight')
   useEffect(()=>{
     makeRequestApi()
   },[])

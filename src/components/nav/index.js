@@ -7,7 +7,7 @@ import {FETCHING,SUCCESS,ERROR} from '../../actions/actionTypes'
 
 function Nav () {
   const [{status,response},makeRequestApi] = useApiRequest(
-    'http://localhost:8080/nav'
+    'http://localhost:9090/nav'
   )
 
   useEffect(

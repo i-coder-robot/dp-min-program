@@ -6,7 +6,7 @@ import useApiRequest from "../../useApiRequest";
 import {FETCHING, SUCCESS, ERROR} from '../../actions/actionTypes'
 
 function ClassList () {
-  const [{status, response}, makeRequestApi] = useApiRequest('http://localhost:8080/restaurantBillBoard')
+  const [{status, response}, makeRequestApi] = useApiRequest('http://localhost:9090/restaurantBillBoard')
   useEffect(() => {
     makeRequestApi()
   }, [])

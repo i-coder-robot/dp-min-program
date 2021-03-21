@@ -4,10 +4,10 @@ import {View,} from '@tarojs/components'
 import './tabs-left.scss'
 import TabsItem from "./tabs-item";
 import useApiRequest from "../../useApiRequest";
-import {FETCHING,SUCCESS,ERROR} from '../../actions/actionTypes'
+
 
 function TabsLeft () {
-  const [{status,response},makeRequestApi] = useApiRequest('http://localhost:8080/restaurantTabItem')
+  const [{status,response},makeRequestApi] = useApiRequest('http://localhost:9090/restaurantTabItem')
 
   useEffect(()=>{
    makeRequestApi()

@@ -5,7 +5,7 @@ import useApiRequest from "../../useApiRequest";
 import {SUCCESS} from "../../actions/actionTypes";
 
 function Team () {
-  const [{status, response}, makeRequestApi] = useApiRequest('http://localhost:8080/team')
+  const [{status, response}, makeRequestApi] = useApiRequest('http://localhost:9090/team')
   useEffect(() => {
     makeRequestApi()
   }, [])

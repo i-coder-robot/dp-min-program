@@ -6,7 +6,7 @@ import {FETCHING, SUCCESS, ERROR} from '../../actions/actionTypes'
 
 function Rush () {
   const [{status, response}, makeRequestApi] = useApiRequest(
-    'http://localhost:8080/rush')
+    'http://localhost:9090/rush')
   // eslint-disable-next-line no-unused-vars
   const [rushTime, setRushTime] = useState('01')
   // eslint-disable-next-line no-unused-vars

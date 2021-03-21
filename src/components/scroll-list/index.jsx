@@ -6,7 +6,7 @@ import useApiRequest from "../../useApiRequest";
 import {FETCHING,SUCCESS,ERROR} from '../../actions/actionTypes'
 
 function ScrollList () {
-  const [{status,response},makeRequestApi] = useApiRequest('http://localhost:8080/restaurantNav')
+  const [{status,response},makeRequestApi] = useApiRequest('http://localhost:9090/restaurantNav')
   useEffect(()=>{
     makeRequestApi()
   },[])

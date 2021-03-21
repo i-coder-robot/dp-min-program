@@ -5,7 +5,7 @@ import './banner.scss'
 function Banner () {
   return (
     <View className='banner'>
-      <Image className='bannerImg' src='http://localhost:8080/image?imageName=banner' />
+      <Image className='bannerImg' src='http://localhost:9090/image?imageName=banner' />
     </View>
   )
 }

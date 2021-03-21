@@ -6,7 +6,7 @@ import {FETCHING,SUCCESS,ERROR} from '../../actions/actionTypes'
 
 function SubNav () {
   const [{status,response},makeRequestApi] = useApiRequest(
-    'http://localhost:8080/subNav'
+    'http://localhost:9090/subNav'
   )
 
   useEffect(

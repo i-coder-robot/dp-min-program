@@ -10,7 +10,7 @@ import {FETCHING,SUCCESS,ERROR} from '../../actions/actionTypes'
 
 function Me () {
 
-  const [{status,response},makeRequestApi] = useApiRequest('http://localhost:8080/me')
+  const [{status,response},makeRequestApi] = useApiRequest('http://localhost:9090/me')
   useEffect(()=>{
     makeRequestApi()
   },[])
